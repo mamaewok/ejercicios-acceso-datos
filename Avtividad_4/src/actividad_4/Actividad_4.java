@@ -2,13 +2,14 @@ package actividad_4;
 
 import java.util.Scanner;
 
-public class Avtividad_4 {
+public class Actividad_4 {
 
-	private static Scanner reader;
-	private static String sTexto;
+	
 
 	public static void main(String[] args) {
-		 reader = new Scanner(System.in);
+		Scanner reader= new Scanner(System.in);
+		String sTexto;
+		
 	        int n;
 	        do {
 	            System.out.println(
@@ -28,7 +29,7 @@ public class Avtividad_4 {
 	                    case 2:
 	                        System.out.println(
 	                                "Introduce la direccion del archivo o fichero: ");
-	                        setsTexto(reader.next());
+	                        sTexto = reader.next();
 	                        
 
 	                        break;
@@ -36,7 +37,7 @@ public class Avtividad_4 {
 	                    case 3:
 	                        System.out.println(
 	                                "Introduce la direccion del archivo o fichero: ");
-	                        setsTexto(reader.next());
+	                        sTexto = reader.next();
 	                        
 	                        System.out.println(
 	                                "Introduce el número de caracteres a leer: ");
@@ -49,14 +50,6 @@ public class Avtividad_4 {
 	        } while (n != 0);
 	            System.out.println("¡Hasta pronto!");
 		
-	}
-
-	public static String getsTexto() {
-		return sTexto;
-	}
-
-	public static void setsTexto(String sTexto) {
-		Avtividad_4.sTexto = sTexto;
 	}
 
 }
