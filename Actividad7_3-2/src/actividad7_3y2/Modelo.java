@@ -32,7 +32,7 @@ public class Modelo {
 		ArrayList<Integer> contenedorTxt = new ArrayList<Integer>();
 		FileReader f = null;
 		BufferedReader bf = null;
-		String linea; // leo linea a linea
+		String linea; 
 
 		try {
 			File fichero = new File(rutaTxt);
