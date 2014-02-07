@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pushme Button</string>
+    <string name="action_settings">Settings</string>
+    <string name = "pulsame">Push me!</string>
+     <plurals name="numPlurales">
+        <item quantity="one">Pushed %d one time</item>
+        <item quantity="other">Pushed %d times</item>
+    </plurals>
+</resources>
